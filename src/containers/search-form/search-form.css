@@ -1,0 +1,28 @@
+.main-heading {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+.intruction-heading {
+  margin-top: 5rem;
+  text-align: center;
+  color: white;
+  text-decoration: dotted;
+}
+.date-selector {
+  display: flex;
+  align-items: center;
+}
+.date-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.date-selector input {
+  max-width: 10rem;
+}
+.date-selector > p {
+  color: white;
+  min-width: 2rem;
+}

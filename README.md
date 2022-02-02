@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+I am using NASA Api for fetching Near earth object between desired range, I have also used React-Icons.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
