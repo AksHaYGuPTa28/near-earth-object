@@ -13,7 +13,7 @@ function formatStringToDecimal(str) {
 
 export const ResultsTable = () => {
   const { state } = useGlobalState();
-  const { startDate, endDate, search } = state;
+  const { startDate, endDate } = state;
   const [neObjects, setNeObjects] = useState([]);
 
   useEffect(() => {
@@ -48,12 +48,6 @@ export const ResultsTable = () => {
       )
     : [];
   let flattenedObjects = [].concat.apply([], objectSets);
-
-  if (search) {
-    flattenedObjects = flattenedObjects.filter((obj) =>
-      obj.name.includes(search)
-    );
-  }
 
   return (
     <div>
