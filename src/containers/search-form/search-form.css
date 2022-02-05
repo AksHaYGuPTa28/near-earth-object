@@ -26,3 +26,7 @@
   color: white;
   min-width: 2rem;
 }
+.error-message {
+  text-align: center;
+  color: red;
+}

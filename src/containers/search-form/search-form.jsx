@@ -64,7 +64,7 @@ export const SearchForm = () => {
           />
         </div>
       </div>
-      <div>{error || ""}</div>
+      <div className="error-message">{error || ""}</div>
     </div>
   );
 };
